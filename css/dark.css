@@ -1,0 +1,211 @@
+/* dark.css */
+
+/* Style général pour le corps de la page */
+body {
+    background-color: #343a40; /* Fond sombre */
+    color: white; /* Texte en blanc */
+}
+
+
+
+/* Styles pour la barre de navigation */
+
+.navbar {
+    background-color: #23272b; /* Fond de la barre de navigation en sombre */
+}
+
+
+.navbar .navbar-brand {
+    color: #f8f9fa; /* Texte du logo en blanc */
+}
+
+.navbar .navbar-nav .nl {
+    color: #f8f9fa; /* Liens de navigation en blanc */
+}
+
+.navbar .navbar-toggler-icon {
+    filter: invert(1); /* Inverser la couleur de l'icône du menu pour qu'elle soit visible sur fond sombre */
+}
+
+/* Styles pour le container */
+.container {
+    background-color: #343a40f5; /* Fond sombre pour le container */
+    color: white; /* Texte en blanc */
+}
+.container:first-child{
+    background-color: #282b23;
+}
+/* Styles pour les cartes (cards) */
+.card {
+    background-color: #23272b; /* Fond sombre pour les cartes */
+    color: white; /* Texte en blanc */
+    border-color: #1d2124; /* Bordure des cartes en sombre */
+}
+.ree{
+    background-color: #343a4000;
+}
+/* Styles pour les boutons */
+.btn {
+    background-color: #0d6efd; /* Fond des boutons en bleu */
+    color: white; /* Texte des boutons en blanc */
+    border-color: #0d6efd; /* Bordure des boutons en bleu */
+}
+
+.btn:hover {
+    background-color: #0b5ed7; /* Fond des boutons au survol */
+    border-color: #0a58ca; /* Bordure des boutons au survol */
+}
+
+/* Styles pour les champs de formulaire */
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], select, textarea {
+    background-color: #495057; /* Fond sombre pour les champs de formulaire */
+    color: white; /* Texte en blanc */
+    border: 1px solid #ced4da; /* Bordure des champs */
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder, input[type="number"]::placeholder, textarea::placeholder {
+    color: #6c757d; /* Texte des placeholders */
+}
+
+/* Styles pour les labels et les légendes */
+label, legend {
+    color: white; /* Texte des labels et des légendes en blanc */
+}
+
+
+.progress-steps .step {
+    background-color: #495057; /* Fond sombre pour les étapes de progression */
+    color: #f8f9fa; /* Texte en blanc */
+}
+
+.progress-steps .step.active {
+    background-color: #0d6efd; /* Fond bleu pour les étapes actives */
+}
+
+.photo-preview {
+    background-color: #495057; /* Fond sombre pour l'aperçu des photos */
+    border-color: #6c757d; /* Bordure des photos */
+}
+
+.requis {
+    color: gold; /* Texte des champs requis en rouge clair */
+}
+.form-textt {
+    color: rgb(245, 66, 66); 
+}
+.form-textt:hover{
+    color: #ca0000;
+}
+
+.alink{
+    color: #ffffff; 
+}
+.alink:hover{
+    color: #0d6efd;
+    font-weight: bold;
+}
+.activee {
+    color: #ffee00;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+
+footer{
+    border-top: 1px solid #444;
+    background-color: #030303;
+    color: #ffffff;
+}
+
+footer h5 {
+    font-weight: bold;
+    animation: biencolorch 2s infinite alternate; 
+}
+@keyframes biencolorch {
+    from {
+        text-shadow: 0 0 10px #ffffff;
+        color: rgb(255, 22, 5);
+    }
+    to {
+        text-shadow: 0 0 20px rgb(255, 0, 0);
+        color: #000000;
+        text-decoration: solid;
+    }
+}
+
+footer ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+footer .social-icons img{
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) invert(1); /* Icônes blanches */
+}
+.social-icons i {
+    font-size: 24px;
+    color: #fffb00; /* Couleur par défaut en mode sombre */
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: #00aaff; /* Couleur au survol en mode sombre */
+}
+
+.textxir h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #3498db;
+}
+
+.textxir h2 {
+    font-size: 1.8em;
+    margin-top: 0.5em;
+    color: gold;
+}
+
+.textxir p {
+    line-height: 1.8;
+}
+
+.carousel img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.contact-section {
+    padding: 50px 0;
+}
+.contact-info {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.map {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
