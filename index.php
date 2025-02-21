@@ -7,6 +7,6 @@
 </head>
 <body>
     hello renedy
-    <h1> good</h1>
+    <h1> good news</h1>
 </body>
 </html>
